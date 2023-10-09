@@ -124,7 +124,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("ADDRESS");
 
                   
                 }
@@ -134,17 +134,17 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("AGEO");
 
                   
                 }
                 
-                if(schemas[t][key].type == "AWS_ACCESS_")
+                if(schemas[t][key].type == "AWS_ACCESS_KEY")
                 {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("AWS_ACCESS_KEY");
 
                   
                 }
@@ -154,7 +154,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("AWS_SECRET_KEY");
 
                   
                 }
@@ -164,7 +164,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("CREDIT_DEBIT_CVV");
 
                   
                 }
@@ -174,7 +174,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("CREDIT_DEBIT_EXPIRY");
 
                   
                 }
@@ -184,7 +184,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("CREDIT_DEBIT_NUMBER");
 
                   
                 }
@@ -195,7 +195,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("PDATE_TIME");
 
                   
                 }
@@ -205,7 +205,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("PDRIVER_I");
 
                   
                 }
@@ -215,7 +215,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("PEMAIL");
 
                   
                 }
@@ -225,7 +225,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("INTERNATIONAL_BANK_ACCOUNT_NUMBER");
 
                   
                 }
@@ -235,7 +235,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("IP_ADDRESS");
 
                   
                 }
@@ -245,7 +245,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("LICENSE_PLATE");
 
                   
                 }
@@ -255,7 +255,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("MAC_ADDRESS");
 
                   
                 }
@@ -265,7 +265,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("NAME");
 
                   
                 }
@@ -275,7 +275,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("PASSWORD");
 
                   
                 }
@@ -285,7 +285,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("PHONE");
 
                   
                 }
@@ -295,7 +295,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("PIN");
 
                   
                 }
@@ -305,7 +305,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("SWIFT_CODE");
 
                   
                 }
@@ -315,7 +315,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("URL");
 
                   
                 }
@@ -325,7 +325,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("USERNAME");
 
                   
                 }
@@ -335,7 +335,7 @@ function performDataExtraction() {
                   logger.log(schemas[t][key].type + " Identified ");
                   logger.log("parent id: " + document.getParent().id);
 
-					document.addTag("PASSPORTINFO");
+					document.addTag("US_INDIVIDUAL_TAX_IDENTIFICATION_NUMBER");
 
                   
                 }
